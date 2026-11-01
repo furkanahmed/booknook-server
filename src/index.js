@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import { ObjectId } from "mongodb";
 import { getDb } from "./db.js";
 import { authenticateToken, optionalAuth } from "./auth.js";
+import { authLoginHandler } from "./auth-routes.js";
 import { seedBooks } from "./seed.js";
 
 dotenv.config();
@@ -31,6 +32,9 @@ app.get("/", (req, res) => {
     version: "1.0.0",
   });
 });
+
+// Authentication Token Provider
+app.post("/auth/login", authLoginHandler);
 
 /* ==========================================================================
    ASSIGNMENT SPECIFICATION: STRICTLY 8 REST API ROUTES
