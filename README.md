@@ -2,9 +2,11 @@
 
 BookNook is a modern RESTful API service built with Express.js and MongoDB to power the BookNook digital library application.
 
-## Live API & Client URLs
+## Live API & Repositories
 - **Live Client Application:** [BookNook Client](https://booknook-nine.vercel.app)
-- **Live API Endpoint:** [BookNook Express API](https://book-nook-server.onrender.com) *(Replace with your live server URL if hosted on Render/Vercel)*
+- **Live Server API:** [BookNook Express API](https://book-nook-server.onrender.com) *(or your deployed server endpoint)*
+- **Client GitHub Repository:** [https://github.com/furkanahmed/booknook](https://github.com/furkanahmed/booknook)
+- **Server GitHub Repository:** [https://github.com/furkanahmed/booknook-server](https://github.com/furkanahmed/booknook-server)
 
 ## Core Features
 - **Strict 8 REST API Endpoints:** Clean implementation of all mandatory endpoints for book catalog management and borrowing operations.
